@@ -1,18 +1,26 @@
-# 🎄 Christmas Puzzle – Fullmetal Inspired
+# Cápsula del Tiempo
 
-Un pequeño puzzle navideño disponible en **GitHub Pages**.  
-Al resolver el desafío, se revela un mensaje especial.
+Este proyecto es una página simple para mostrar una canción y un mensaje en forma de cápsula del tiempo.
 
-> **“Para obtener algo, se debe ofrecer algo de igual valor.”**  
-> — *Principio del Intercambio Equivalente*
+## ¿Qué hace?
 
-En este caso, solo necesitás ofrecer la respuesta correcta ;)
+Muestra una canción de Spotify y una frase breve en una sola pantalla.
 
-## 🚀 Cómo usar
-1. Ingresá al enlace de GitHub Pages.  
-2. Completá el desafío.  
-3. Recibí el mensaje oculto.
+## Archivos principales
 
-## 🌟 Nota
-> “Levántate y camina. Sigue avanzando. Tienes dos piernas sanas. Así que levántate y úsalas. Eres lo suficientemente fuerte como para forjar tu propio camino.”
-> — *Edward Elric*
+- index.html: estructura de la página
+- css/styles.css: diseño
+- js/main.js: carga la canción y el texto
+- data/cancion.json: contenido de la cápsula
+
+## Cómo cambiarlo
+
+Editá el archivo data/cancion.json para cambiar la canción o el mensaje.
+
+## Cómo ver el proyecto
+
+Abrí el archivo index.html en el navegador o usá un servidor simple como:
+
+```bash
+python3 -m http.server 8000
+```
